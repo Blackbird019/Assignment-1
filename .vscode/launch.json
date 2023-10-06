@@ -1,7 +1,45 @@
+using System;
+
+namespace Calculator
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": []
+    internal class Program
+    {
+        Public static int Result;
+        Public static void Add(int A, int B)
+        {
+            Result = A + B;
+        }
+
+        Public static void Subtract(int A, int B)
+        {
+            Result = A - B;
+        }
+
+        Public static void Multiply(int A, int B)
+        {
+            Result = A * B;
+        }
+
+        Public static void Divide(int A, int B)
+        {
+            Result = A / B;
+        }
+
+        Public static void Main(string[] args)
+        {
+            Add(10, 10);
+            Console.WriteLine("Answer is: " + Result);
+
+            Subtract(100, 70);
+            Console.WriteLine("Answer is: " + Result);
+
+            Multiply(3, 9);
+            Console.WriteLine("Answer is: " + Result);
+
+            Divide(50,5);
+            Console.WriteLine("Answer is: " + Result);
+            
+
+        }
+    }
 }
