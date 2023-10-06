@@ -106,7 +106,7 @@ namespace Methods
             CGrade(66);
             Pass(58);
             DGrade(58);
-            Pass(34);
+            Fail(34);
             Fail(34);
         }
     }
